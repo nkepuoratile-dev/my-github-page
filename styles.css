@@ -1,3 +1,10 @@
+/*===== RESET DEFAULTS =====*/
+*{margin: 0;
+padding: 0;
+box-sizing: 1.6;
+}
+
+/*===== GLOBAL STYLES =====*/
 body { 
 
     font-family: Arial, sans-serif;
@@ -14,6 +21,7 @@ body {
 
 }
 
+/*===== HEADER STYLES =====*/
 header {
 
     background-color: #6eb571;
@@ -32,6 +40,7 @@ header h1 {
 
 }
 
+/*===== NAVIGATION STYLES =====*/
 nav a {
 
     color: white;
@@ -48,6 +57,8 @@ nav a:hover {
 
 }
 
+
+/*===== IMAGE STYLES =====*/
 main {
 
     padding: 20px;
@@ -70,6 +81,7 @@ main img {
 
 }
 
+/*===== FOOTER STYLES =====*/
 footer {
 
     background-color: #333;
@@ -88,12 +100,13 @@ footer {
 
 }
 
+/*===== PARAGRAPH STYLES =====*/
 p {
 
     font-size: 1.1em;
 
 }
-
+/*===== LINK HOOVER STYLES =====*/
 a {
 
     color: #4CAF50;
@@ -102,6 +115,7 @@ a {
 
 }
 
+/*===== IMAGE STYLES =====*/
 a:hover {
 
     text-decoration: underline;
@@ -115,7 +129,7 @@ img {
     border-radius: 10px;
 
 }
-
+/*===== LINK EMAIL STYLES =====*/
 main a[href^="mailto:"] {
 
     color: #2e0323;
